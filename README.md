@@ -7,16 +7,19 @@ Returning Customer Section: Allows users to indicate if they are returning custo
 Amount Paid Section: Includes inputs for Part 1 and Part 2 amounts, with a calculated Total field.
 Bank Details Section: Gathers bank-related information such as bank name, branch, account type, and account number.
 Signature Section: Allows users to input their signature and date.
+
 Technologies Used:
 HTML5 & CSS3: For structuring and styling the form.
 Bootstrap 4: For responsive layout and design.
 jQuery: For handling form calculations and interactions.
 JavaScript: For adding custom functionality.
+
 How to Use:
 Clone the repository.
 Open pdf-conversion-services.html in a web browser.
 Fill out the form fields.
 Click the "Save Data" button to store the form data locally.
+
 Future Enhancements:
 Backend Integration: Implement a backend to store form data in a database.
 Form Validation: Add validation to ensure all required fields are filled out correctly.
