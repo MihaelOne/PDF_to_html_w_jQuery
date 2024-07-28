@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fillable Form</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <img src="img1.png" alt="Image" class="img-fluid" />
+      <div class="content-section">
+        <h2 style="color: blue">Hello!</h2>
+        <p>
+          <b>
+            This is a sample fillable PDF form by me. I can convert any PDF form
+            like this. Your customers can simply download it or even fill up all
+            requisite details online. A fillable PDF form saves time,
+            stationery, ensures accurate data collection and even help you save,
+            access and evaluate data in the simplest way. Then i can Convert
+            Fillable PDF to HTML form.
+          </b>
+        </p>
+        <div class="form-section">
+          <h2 style="color: blue">Basic Information</h2>
+          <div class="form-group row">
+            <label for="customer-name" class="col-sm-3 col-form-label"
+              >Customer Name:</label
+            >
+            <div class="col-sm-9">
+              <input
+                type="text"
+                class="form-control"
+                id="customer-name"
+                name="customer-name"
+              />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="address" class="col-sm-3 col-form-label"
+              >Address:</label
+            >
+            <div class="col-sm-9">
+              <input
+                type="text"
+                class="form-control"
+                id="address"
+                name="address"
+              />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="address2" class="col-sm-3 col-form-label"
+              >Address Line 2:</label
+            >
+            <div class="col-sm-9">
+              <input
+                type="text"
+                class="form-control"
+                id="address2"
+                name="address2"
+              />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="mobile" class="col-sm-3 col-form-label"
+              >Customer Mobile:</label
+            >
+            <div class="col-sm-3">
+              <input
+                type="text"
+                class="form-control"
+                id="mobile"
+                name="mobile"
+              />
+            </div>
+            <label for="birth_date" class="col-sm-3 col-form-label"
+              >Customer Date of Birth:</label
+            >
+            <div class="col-sm-3">
+              <input
+                type="date"
+                class="form-control"
+                id="birth_date"
+                name="birth_date"
+              />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="email" class="col-sm-3 col-form-label"
+              >Customer Email:</label
+            >
+            <div class="col-sm-9">
+              <input type="text" class="form-control" id="email" name="email" />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="website" class="col-sm-3 col-form-label"
+              >Customer Website:</label
+            >
+            <div class="col-sm-9">
+              <input
+                type="text"
+                class="form-control"
+                id="website"
+                name="website"
+              />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="col-sm-3 col-form-label">Returning Customer:</label>
+            <div class="col-sm-2">
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="yes"
+                  value="yes"
+                />
+                <label class="form-check-label" for="yes">Yes</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="no"
+                  value="no"
+                />
+                <label class="form-check-label" for="no">No</label>
+              </div>
+            </div>
+            <label for="enquiry-for" class="col-sm-2 col-form-label"
+              >Enquiry For:</label
+            >
+            <div class="col-sm-5">
+              <input
+                type="text"
+                class="form-control"
+                id="enquiry-for"
+                name="enquiry-for"
+              />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="amount-paid" class="col-sm-3 col-form-label"
+              >Amount Paid:</label
+            >
+            <label for="part1" class="col-sm-1 col-form-label">Part 1:</label>
+            <div class="col-sm-2">
+              <input
+                type="number"
+                class="form-control"
+                id="part1"
+                name="part1"
+                value="0"
+              />
+            </div>
+            <label for="part2" class="col-sm-1 col-form-label">Part 2:</label>
+            <div class="col-sm-2">
+              <input
+                type="number"
+                class="form-control"
+                id="part2"
+                name="part2"
+                value="0"
+              />
+            </div>
+            <label for="total" class="col-sm-1 col-form-label">Total:</label>
+            <div class="col-sm-2">
+              <input
+                type="number"
+                class="form-control"
+                id="total"
+                name="total"
+                value="0"
+                readonly
+              />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="bankName" class="col-sm-3 col-form-label"
+              >Customer bank name:</label
+            >
+            <div class="col-sm-9">
+              <input
+                type="text"
+                class="form-control"
+                id="bankName"
+                name="bankName"
+              />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="branch" class="col-sm-3 col-form-label">Branch</label>
+            <div class="col-sm-9">
+              <input
+                type="text"
+                class="form-control"
+                id="branch"
+                name="branch"
+              />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="Acc_type " class="col-sm-3 col-form-label"
+              >Account Type</label
+            >
+            <div class="col-sm-9">
+              <input
+                type="text"
+                class="form-control"
+                id="Acc_type"
+                name="Acc_type"
+              />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="Acc_num " class="col-sm-3 col-form-label"
+              >Account Number</label
+            >
+            <div class="col-sm-9">
+              <input
+                type="text"
+                class="form-control"
+                id="Acc_num"
+                name="Acc_num"
+              />
+            </div>
+          </div>
+          <p>
+            <b
+              >A fillable PDF form can have many features. It can compute,
+              capitalize letters, provide exact formats like
+              letters/numbers/both so that details can be filled just as
+              required. It can also have optional fields in a way that one or
+              more choices as commanded can only be selected. The output data
+              from a fillable PDF can be self-explanatory and help the receiver
+              understand it easily. Please contact me if you wish to get your
+              forms converted into fillable PDF forms. We provide this service
+              at very attractive charges and delivery pretty quickly</b
+            >
+          </p>
+          <div class="form-group row">
+            <label for="Signature" class="col-sm-3 col-form-label"
+              >Signature</label
+            >
+            <div class="col-sm-3">
+              <input
+                type="text"
+                class="form-control"
+                id="signature"
+                name="signature"
+              />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="DateSignature" class="col-sm-3 col-form-label"
+              >Date</label
+            >
+            <div class="col-sm-3">
+              <input
+                type="date"
+                class="form-control"
+                id="signatureDate"
+                name="signatureDate"
+              />
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <div class="col-sm-12 text-center">
+              <button type="button" class="btn btn-primary" id="save-button">
+                Save Data
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="text-center mt-4">
+      <p>
+        Content Creation | Content Localization | Graphic Designing | Web
+        Solutions | Interpretation <br />
+        Audio-Video Editing | Voice-Over | PPT Presentation | And More...
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  </body>
+</html>
